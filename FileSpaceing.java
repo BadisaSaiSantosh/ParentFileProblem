@@ -8,7 +8,7 @@ class FileSpaceing{
         for(int i=0;i<filenames.length;i++){
             fileNames[i]=read.nextLine();
         }
-              strCheck(fileNames)
+              strCheck(fileNames);
     }
      
     public static void strCheck(String[] fileNames){
